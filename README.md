@@ -35,8 +35,8 @@ To run this project locally or on a cloud platform like Render, follow the steps
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-repo-url/chatbot-sql-gemini.git
-cd chatbot-sql-gemini
+git clone https://github.com/GauravOOO2/Text-To-SQL-LLM-AI-ChatBot.git
+cd Text-To-SQL-LLM-AI-ChatBot
 ```
 
 ### 2. Install Dependencies
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 Create a `.env` file in the project directory and add your **Google API key** for Gemini LLM:
 
-```
+```bash
 GOOGLE_API_KEY=your-google-api-key
 ```
 
@@ -80,7 +80,7 @@ If deploying on Render, ensure you:
 1. Set the start command as `streamlit run app.py`.
 2. Include the `Procfile` in the root of your project with the following content:
 
-```
+```bash
 web: streamlit run app.py
 ```
 
@@ -138,7 +138,3 @@ Contributions are welcome! If you'd like to improve this project or add new feat
 1. Fork the project.
 2. Create a new feature branch.
 3. Submit a pull request detailing your changes.
-
-## 🛡️ License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
